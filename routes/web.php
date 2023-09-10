@@ -15,6 +15,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/',[Controller::class,'test']);
-Route::get('/test/key',[Controller::class,'testKey']);
+Route::get('/time',[Controller::class,'time']);
 Route::get('/cache',[Controller::class,'cache']);
+Route::get('data/{dataKey}',[Controller::class,'data']);
